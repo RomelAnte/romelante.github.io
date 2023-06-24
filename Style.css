@@ -19,15 +19,16 @@ nav{
     font-size: 18px;
 }
 h1{
-    color: black;
+    color: #696564;
     font-size: 45px;
     text-align: center;
     padding: 25px;
 }
-h2{
-    color: white;
-    font-size: 45px;
-    text-align: center;
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('../imagenes/logo.png');
+    background-size: cover;
 }
 li{
     display: inline-block;

@@ -1,14 +1,42 @@
 /* Importación de fuentes de google fonts */ 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-
+*{
+	margin: 0;
+	padding: 0;
+}
 
 body{
 	height: 100%; 
 	font-family: 'Noto Sans', sans-serif;
-  background-color: #2e4cc6; 
+	background-color: brown;
 }
-
-
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('../imagenes/logo.png');
+    background-size: cover;
+}
+li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
 .contact_form{	
 	width: 460px; 
   height: auto;
@@ -130,3 +158,10 @@ p{
 	border: 1px solid #97d848;
 }
 
+footer{
+    text-align: right;
+    padding: 20px;
+}
+p{
+    font-size: 18px;
+}
