@@ -27,7 +27,6 @@ h1{
 .logo {
     width: 100px;
     height: 100px;
-    background-image: url('../imagenes/logo.png');
     background-size: cover;
 }
 li{
@@ -61,7 +60,7 @@ fieldset{
     display: inline-block;
     text-align: center;
 }
-img{
+.img{
     width: 350px;
     height: 250px;
     border-radius: 10px;

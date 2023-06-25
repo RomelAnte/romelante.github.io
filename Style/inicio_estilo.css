@@ -5,143 +5,148 @@ body {
     font-size:x-large;
     margin: 0;
     padding: 0;
-  }
- 
-  
-  .container {
+}
+.container {
     
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
-  }
-  
-  /* Encabezado */
-  header {
+}  
+/* Encabezado */
+header {
     background-color: #e5a786;
     padding: 50px 0;
-  }
-  
-  .logo {
-    
-    font-size: 24px;
-  }
-  
-  .nav-menu {
+}  
+.logo {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+} 
+.nav-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: right;
-  }
-  
-  .nav-menu li {
+}  
+.nav-menu li {
     display: inline-block;
     margin-left: 10px;
-  }
-  
-  .nav-menu li a {
+}  
+.nav-menu li a {
     height: 45px; 
-	padding-left: 5px;
-	padding-right: 5px; 	
-	margin-bottom: 20px; 
-	margin-top: 10px; 	
-    font-family:;
+    padding-left: 5px;
+    padding-right: 5px; 	
+    margin-bottom: 20px; 
+    margin-top: 10px; 	
+    font-family:monospace;
     color: #333;
     text-decoration: none;
-  }
-  
-  /* Sección de héroe */
-  .hero {
+}  
+/* Sección de héroe */
+.hero {
     background-image: url(hero-image.jpg);
     background-size: cover;
     background-position: center;
     color: #fffdf9;
     padding: 200px 0;
     text-align: center;
-  }
-  
-  .hero-title {
+}  
+.hero-title {
     font-size: 36px;
     margin-bottom: 20px;
-  }
-  
-  .hero-description {
+}  
+.hero-description {
     font-size: 18px;
     margin-bottom: 40px;
-  }
-  
-  .button {
+}  
+.button {
     display: inline-block;
     background-color: #1b0404;
     color: #edecea;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-  }
-  
-  /* Sección "Sobre nosotros" */
-  .about-section {
+}  
+/* Sección "Sobre nosotros" */
+.about-section {
     padding: 80px 0;
     text-align: center;
-  }
-  
-  .section-title {
+}  
+.section-title {
     font-size: 24px;
     margin-bottom: 20px;
-  }
-  
-  .section-description {
+}  
+.section-description {
     font-size: 18px;
-  }
-  
+}  
   /* Sección de menú */
-  .menu-section {
+.menu-section {
     background-color: #dbc16b;
     padding: 80px 0;
-  }
-  
-  .menu-item {
+}  
+.menu-item {
     text-align: center;
     margin-bottom: 40px;
-  }
-  
-  .menu-item img {
+}  
+.menu-item img {
    
     width: 300px;
     height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
-  }
-  
-  .menu-item-title {
-    
+}  
+.menu-item-title{
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .menu-item-description {
+}  
+.menu-item-description {
     font-size: 16px;
-  }
-  
-  /* Sección de reservaciones */
-  .reservation-section {
+}
+.gallery{
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
+.gallery__ {
+  margin: auto;
+  height: 600px;
+  position: relative;
+}
+.gallery__ img {
+  height: 500px;
+  position: absolute;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.gallery__ img:first-child {
+  opacity: 1;
+}
+
+.gallery__:hover img {
+  opacity: 0;
+}
+
+.gallery__:hover img:last-child {
+  opacity: 1;
+}
+.reservation-section {
     background-color: #e5b973;
     padding: 80px 0;
     text-align: center;
-  }
-  
-  .reservation-form input,
-  .reservation-form button {
+}  
+.reservation-form input,
+.reservation-form button {
     display: block;
     margin: 10px auto;
     padding: 10px;
     width: 300px;
-  }
-  
+}
   /* Pie de página */
-  footer {
+footer{
     background-color: #5dc63a;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-  }
+}
   
